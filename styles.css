@@ -1,2 +1,15 @@
+.holder {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  width: 200px;
+  height: 200px;
+}
+
+.item {
+  /* Individual item properties remain untouched */
+	background-color:red;
+	border:5px solid;
+}
 
 /* Your CSS Code here. */
